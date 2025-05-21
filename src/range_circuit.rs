@@ -7,7 +7,7 @@ use halo2_proofs::{
 
 use crate::range_chip::{LOOKUP_BITS, RangeTableChip, RangeTableConfig};
 
-#[derive(Default)]
+#[derive(Default, Clone)]
 pub struct RangeProofCircuit<F: PrimeField> {
     pub inputs: Vec<Value<F>>,
     pub num_bits_to_check: usize,

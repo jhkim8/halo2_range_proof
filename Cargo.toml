@@ -10,3 +10,10 @@ ff = "0.13"
 bls12_381 = "0.8.0"
 rand = "0.9.1"
 rand_core = "0.6.4"
+
+[dev-dependencies]
+criterion = "0.6.0"
+
+[[bench]]
+name = "range_proof_bench"
+harness = false
