@@ -1,0 +1,12 @@
+[package]
+name = "halo2_range_proof"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+halo2_proofs = "0.3.0"
+halo2_gadgets = "0.3.0"
+ff = "0.13"
+bls12_381 = "0.8.0"
+rand = "0.9.1"
+rand_core = "0.6.4"
